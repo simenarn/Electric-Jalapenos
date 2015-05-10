@@ -32,20 +32,38 @@
         height: 100px;
         margin-top: -1%;
         z-index:3;
+        border-top: 1px solid black;
         }
 
 .sliderss{
-  width: 70%
+  width: 70%;
 }
 
+.testcunt{
+  background-color: white;
+  height: 400px;
+  margin-left: 40px;
+  width: 300px;
+  margin-top: 20px;
+}
 
+.menyy{
+  width: 150px;
+  height: 2000px;
+  background-color: #f7eb05;
+  z-index: 1000000;
+  margin-top: -2002px;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+}
 /*Produktfelt*/
 .products{
   background-color: white;
   height: 2000px;
-  width:800px;
+  width:900px;
   z-index: 200000;
-  margin-left: 20%
+  margin-left: 15%;
+  border:1px solid black;
 }
 
 /*style the main menu*/
@@ -67,7 +85,10 @@
   background-color:#f7eb05;
   padding: 0.5em 2em;
   margin:0;
-  border-right: 1px solid #fff;
+  border: 1px solid black;
+  border-bottom: 0;
+  border-left: 0;
+  border-right-height:110%;
   color:black;
   position:relative;
 }
@@ -82,6 +103,7 @@
   visibility:hidden;
   margin:0;
   padding:0;
+
 }
 
 .myMenu li ul li {
@@ -91,9 +113,10 @@
 
 .myMenu li ul li a:link, .myMenu li ul li a:visited {
   background-color:#f7eb05;
-  width:auto;
+  width:180px;
   z-index: 100000;
-  margin-top: 1px;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
 }
 
 .myMenu li ul li a:hover {
@@ -103,10 +126,16 @@
 
 .menybar{
   background-color: #f7eb05;
-  height: 5.5%;
+  height: 36px;
   width: 70%;
   margin-left: 15%;
+  margin-top: 0px;
+  
+  margin-top-height:20px;
+
 }
+
+
 
 
 /*slideshow*/
@@ -115,6 +144,7 @@
   position: relative;
   overflow: hidden;
   margin-left: 15%;
+  border-top: 1px solid black;
   
 }
 
@@ -252,7 +282,7 @@ a.before:hover:before,a.after:hover:after{
  
 .Hjem {
         margin-left:80%;
-        height: 25px;
+        height: 32px;
         width: auto;
         z-index:1;
   position: absolute;
@@ -261,9 +291,9 @@ a.before:hover:before,a.after:hover:after{
 }
 
 .Kundeservice {
-        margin-left:80%;
-        height: 25px;
-        width: auto;
+        margin-left:82%;
+        height: 32px;
+        width: 57.5px;
         z-index:1;
   position: absolute;
   left: 20px;
@@ -271,8 +301,8 @@ a.before:hover:before,a.after:hover:after{
 }
 
 .Handlekurv {
-        margin-left:80%;
-        height: 25px;
+        margin-left:65%;
+        height: 32px;
         width: auto;
         z-index:1;
   position: absolute;
@@ -282,8 +312,8 @@ a.before:hover:before,a.after:hover:after{
 
 .Login {
         margin-left:80%;
-        height: 25px;
-        width: auto;
+        height: 32px;
+        width: 40px;
         z-index:1;
   position: absolute;
   left: 30px;
