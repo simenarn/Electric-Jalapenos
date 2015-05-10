@@ -324,7 +324,7 @@ a.before:hover:before,a.after:hover:after{
 /*Searchbar*/
 
 #tfheader{
-		margin-left: -29%;
+		margin-left: -95px;
     margin-top: 10%;
 		
 	}
@@ -338,6 +338,7 @@ a.before:hover:before,a.after:hover:after{
 		font-size:14px;
 		border:1px solid #0076a3; border-right:0px;
     margin-left: -40%;
+    width: 250px;
 	}
 	.tfbutton {
 		margin: 0;
@@ -349,7 +350,7 @@ a.before:hover:before,a.after:hover:after{
 		color: #ffffff;
 		border: solid 1px #0076a3; border-right:0px;
 		background: #0095cd;
-    margin-left: -58%;
+    margin-left: -138%;
 
 	}
 	.tfbutton:hover {
